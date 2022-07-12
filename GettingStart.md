@@ -15,4 +15,10 @@ Install MemoryBalancer
 the zip is in the repo
 'make' and thats it
 
-The three repo should be in the same directory
+The three repo should be in the same directory.
+
+login to websites:
+python3 python/login.py
+then ask me for the twitter/facebook/gmail login during kick the tires (I dont want to put it on web because there are crawlers).
+
+additionally, it will be good to try out the jetstream and webi eval in StepByStep - they take <4 hours to run in total, and getting them running imply a high probability of the others running.
