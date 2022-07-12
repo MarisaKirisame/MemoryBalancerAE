@@ -15,4 +15,8 @@ The main pipeline for running a eval is mostly the same, with slight tweak:
 
 below describe the tweak needed to run each eval.
 
-note: running webi take ~3hours, and webii/webiii take ~15 hours.
+note: running webi take ~3hours, and webii/webiii take ~15 hours. jetstream is ~15minutes.
+
+result: you should roughly see that webi/webii/webiii save ~10% memory, and webii/webiii have a bigger saving then webi.
+you should also see a slight time/memory saving for jetstream.
+you can also click around at the web page generated to see if stuff is internally valid.
