@@ -5,3 +5,14 @@ Where appropriate, include descriptions of and links to files (included in the a
 The artifact’s documentation should include the following: A list of claims from the paper supported by the artifact, and how/why. A list of claims from the paper not supported by the artifact, and why not.
 
 Artifact reviewers can use this documentation to center their reviews / evaluation around these specific claims, though the reviewers will still consider whether the provided evidence is adequate to support claims that the artifact works.
+
+There is 4 eval in total: jetstream, webi, webii, webiii.
+
+The main pipeline for running a eval is mostly the same, with slight tweak:
+0 - "./clean_log" to remove old log
+1 - "python3 python/eval.py" to run the eval
+2 - "python3 python/gen.py" to generate the log
+
+below describe the tweak needed to run each eval.
+
+note: running webi take ~3hours, and webii/webiii take ~15 hours.
