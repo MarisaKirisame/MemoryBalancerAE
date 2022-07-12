@@ -16,8 +16,6 @@ Your submission should consist of three pieces:
         an md5 hash of the single file (use the md5 or md5sum command-line tool to generate the hash), or
         the full commit hash for the repository (e.g., from git reflog --no-abbrev)
 
-The URL must be a Google Drive, Dropbox, Github, Bitbucket, or (public) Gitlab URL, to help protect the anonymity of the reviewers. You may upload your artifact directly if it is a single file less than 15 MB.
-
 Your overview should consist of two parts:
     a Getting Started Guide and
     Step-by-Step Instructions for how you propose to evaluate your artifact (with appropriate connections to the relevant sections of your paper);
